@@ -31,4 +31,13 @@ function playGame(playerChoice){
 
 
 
-// function playGame (computerChoice);
+function resetGame(){
+    playerScore = 0;
+    computerScore = 0;
+    document.getElementById("player-choice").textContent = "-";
+    document.getElementById("computer-choice").textContent = "-";
+    document.getElementById("result-text").textContent = "Start the game!";
+    document.getElementById("player-score").textContent = "0";
+    document.getElementById("computer-score").textContent = "0";
+}
+
